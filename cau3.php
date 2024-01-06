@@ -47,8 +47,8 @@
     <script>
         $(document).ready(function(){
             $('.del').on('click',function(){
-                $MACONGDAN = $(this).data('macongdan');
-                deletecongdan($MACONGDAN)
+                var MACONGDAN = $(this).data('macongdan');
+                deletecongdan(MACONGDAN)
             })
         });
         function deletecongdan(MACONGDAN){
