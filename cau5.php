@@ -23,7 +23,6 @@
     <label for="">Tên công dân</label>
     <select name="MACONGDAN" id="MACONGDAN"></select><br>
     <div id='dstrieuchung'></div><br>
-    <a href="index.html">Quay về trang chủ</a>
     <script>
         $(document).ready(function(){
             $('#MADIEMCACHLY').on('change',function(){
